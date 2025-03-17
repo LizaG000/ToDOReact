@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+
+body, option {
+    background: #9f83ae;
+}
+
+p,
+input,
+select,
+option,
+button,
+label,
+h1 {
+    color: #3e2849;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 18pt;
+    font-weight: 700 !important;
+}
+
+h1{
+    font-size: 30pt;
+}
+
+input {
+    transition-duration: 0.4s;
+    background: transparent;
+    border: 3px solid #3e2849;
+    padding: 10px;
+}
+
+input:focus, input:hover{
+    transition-duration: 0.4s;
+    outline: none;
+    box-shadow: none;
+}
+
+input:hover{
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: #3e2849;
+    background: #9f83ae;
+}
+
+input:focus{
+    transition-duration: 0.4s;
+    cursor:text;
+    color: #9f83ae;
+    background: #3e2849;
+}
+
+button{
+    transition-duration: 0.4s;
+    border: 3px solid #3e2849;
+    background: transparent;
+    padding: 10px;
+    text-align: center;
+}
+
+button:hover{
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: #9f83ae;
+    background: #3e2849;
+}
+
+select, option{
+    background: transparent;
+    border: 3px solid #3e2849;
+    padding: 10px;
+    text-align: center;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color: #3e2849;
+    border: 3px solid #3e2849;
+}
+
+div{
+    margin-top: 10px;
+}
+
+.center-h{
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ml-20{
+    margin-left: 20px;
+}
+
+.w-700 {
+    display: block;
+    width: 700px;
+    overflow-wrap: break-word; /* Перенос длинных слов */
+    white-space: normal; 
+}
