@@ -23,6 +23,7 @@ h1{
 }
 
 input {
+    width: 250px;
     transition-duration: 0.4s;
     background: transparent;
     border: 3px solid #3e2849;
@@ -38,18 +39,19 @@ input:focus, input:hover{
 input:hover{
     transition-duration: 0.4s;
     cursor: pointer;
-    color: #3e2849;
-    background: #9f83ae;
+    color: #9f83ae;
+    background: #3e2849;
 }
 
 input:focus{
     transition-duration: 0.4s;
     cursor:text;
-    color: #9f83ae;
-    background: #3e2849;
+    color: #3e2849;
+    background: #9f83ae;
 }
 
 button{
+    width: 250px;
     transition-duration: 0.4s;
     border: 3px solid #3e2849;
     background: transparent;
@@ -65,6 +67,7 @@ button:hover{
 }
 
 select, option{
+    width: 250px;
     background: transparent;
     border: 3px solid #3e2849;
     padding: 10px;
